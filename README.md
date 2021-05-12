@@ -1,9 +1,10 @@
 # RiceDetection
 Efficientdet for Rice Detection  
 
-### Detection 
+### Detection Model and Images 
 - Efficientdet-D0 pytorch
 - image size 3000x2000 -> pathc size 512x512
+- dataset : AIdea Contest '水稻無人機全彩影像植株位置自動標註與應用'
 
 ### Training Step
 - patch images
