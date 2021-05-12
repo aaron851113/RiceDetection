@@ -8,10 +8,10 @@ Efficientdet for Rice Detection
 
 ### Training Step
 - patch images
-- given bboxes by annations(center points) and labels in images.(reference [csvtojson_datasets.ipynb](csvtojson_datasets.ipynb) )
+- given bboxes by annations(center points) and labels in images.([csvtojson_datasets.ipynb](csvtojson_datasets.ipynb) )
 - observe given bboxes
-- train efficientdet-d0 model (reference [train.py](train.py) )
-- see models' results (reference [efficientdet_test_all_weights.py](efficientdet_test_all_weights.py) )
+- train efficientdet-d0 model ([train.py](train.py) )
+- see models' results ([efficientdet_test_all_weights.py](efficientdet_test_all_weights.py) )
 
 - training step 1
 ```
@@ -31,4 +31,5 @@ Observer Mannual Annotations(bboxes) : <br />
 Test Result : <br />
 <img src="logs/Rice/Rice-d0-random2/Rice_test_d0_45_5500(2).jpg" width="400" height="400" /> <br />
 
-- Codes ref : https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch
+### Ref 
+- Codes : https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch
