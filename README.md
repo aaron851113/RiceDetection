@@ -10,7 +10,7 @@ Efficientdet for Rice Detection
 - patch images
 - given bboxes by annations(center points) and labels in images.([csvtojson_datasets.ipynb](csvtojson_datasets.ipynb) )
 - observe given bboxes
-- calculate anchor ratio ([kmeans-anchor.ipynb](kmeans-anchor/kmeans-anchor.ipynb)) -> modify [Rice.yml](projects/Rice.yml)
+- calculate anchor ratio ([kmeans-anchor.ipynb](kmeans-anchor/kmeans_anchor.ipynb)) -> modify [Rice.yml](projects/Rice.yml)
 - train efficientdet-d0 model ([train.py](train.py) )
 - see models' results ([efficientdet_test_all_weights.py](efficientdet_test_all_weights.py) )
 
